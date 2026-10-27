@@ -123,7 +123,7 @@ metadata={"width":width,"height":height,"mercatorBounds":list(merc),"bounds":[[s
     "originalAreaKm2":1999.8784,"waterKm2":{"dry":76.2248,"wet":337.5672,"both":72.868,"wetOnly":264.6992,"dryOnly":3.3568},
     "commonWaterSupportPct":84.09,"vegetationSupportPct":54.0655,
     "displayNote":"Browser images and click values are reprojected display derivatives. Area totals use the original projected analysis grid, not web-map geometry. Field geometry is slightly simplified for display; full geometry is in the GeoPackage.",
-    "driveUrl":None,"logoPreviewOnly":True}
+    "driveUrl":'https://drive.google.com/drive/folders/1xK5kk0WBJG49zlu1TZXqCezqNdsdvLhE?usp=drive_link'}
 (DATA/"catalogue.json").write_text(json.dumps(metadata,separators=(",",":")))
 docs=ROOT/"dist/documents";docs.mkdir(exist_ok=True)
 for name in ["Reading_and_terrain_notes.pdf","Terrain_audit.md","Working_reading_notes.md"]:

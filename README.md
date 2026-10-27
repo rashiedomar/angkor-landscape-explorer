@@ -28,9 +28,9 @@ Dashboard: https://rashiedomar.github.io/angkor-landscape-explorer/
 
 Source: https://github.com/rashiedomar/angkor-landscape-explorer
 
-GitHub Pages serves the static `dist/` directory from the `gh-pages` branch. Original GIS files are supplied separately. The shared Drive URL is pending; the public dashboard labels unavailable download links accordingly. Set `driveUrl` in `dist/data/catalogue.json` when that URL is available.
+GitHub Pages serves the static `dist/` directory from the `gh-pages` branch. Original GIS files are supplied separately. [Shared research folder](https://drive.google.com/drive/folders/1xK5kk0WBJG49zlu1TZXqCezqNdsdvLhE?usp=drive_link). Original-file links open this folder.
 
-The site includes selected research directions and reading notes, with scientific limitations visible in the interface. Original papers, full GIS downloads, local review captures and private runtime files are excluded from this repository. University branding does not indicate endorsement.
+The site includes selected research directions and reading notes, with scientific limitations visible in the interface. Original papers, full GIS downloads, local review captures and private runtime files are excluded from this repository.
 
 Vendored Leaflet and pako licence files are in `dist/vendor/`.
 

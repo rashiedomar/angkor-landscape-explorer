@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DIST=ROOT/"dist"
 SHARE=ROOT.parent/"SHARE_WITH_SCOTT"
 catalogue=json.loads((DIST/"data/catalogue.json").read_text())
-assert catalogue["driveUrl"] is None
+assert catalogue["driveUrl"] == 'https://drive.google.com/drive/folders/1xK5kk0WBJG49zlu1TZXqCezqNdsdvLhE?usp=drive_link'
 assert catalogue["fieldCount"]==205703
 assert sum(tile["count"] for tile in catalogue["fieldTiles"])==205703
 total=0
@@ -28,6 +28,6 @@ http_paths=["/","/style.css","/app.js","/vendor/leaflet.js","/vendor/pako_inflat
 for path in http_paths:
     with urllib.request.urlopen("http://127.0.0.1:8765"+path) as response:assert response.status==200
 assert "Independent preview · not university-endorsed" not in (DIST/"index.html").read_text()
-report={"field_predictions_retained":total,"field_chunks":len(catalogue["fieldTiles"]),"original_raster_checksums_matched":len(manifest["sources"]),"current_shared_files":len(catalogue["sharedFiles"]),"inspection_grids_checked":7,"http_asset_checks":len(http_paths),"all_checks_passed":True,"scope":"Asset integrity/provenance and local serving; not new thematic or archaeological validation.","browser_checks_observed":["dry/wet switch","closable notes: brief, reading notes and progress","water click inspection with observation counts","source and method dialog","vegetation, land-cover and support layer changes","high-zoom field rendering (1,642 visible predictions)","requested header text removed"],"publication":"Not published; real Drive URL and release review are pending"}
+report={"field_predictions_retained":total,"field_chunks":len(catalogue["fieldTiles"]),"original_raster_checksums_matched":len(manifest["sources"]),"current_shared_files":len(catalogue["sharedFiles"]),"inspection_grids_checked":7,"http_asset_checks":len(http_paths),"all_checks_passed":True,"scope":"Asset integrity/provenance and local serving; not new thematic or archaeological validation.","browser_checks_observed":["dry/wet switch","closable notes: brief, reading notes and progress","water click inspection with observation counts","source and method dialog","vegetation, land-cover and support layer changes","high-zoom field rendering (1,642 visible predictions)","requested header text removed"],"publication":"Drive link configured; public release approved by the project owner"}
 (ROOT/"review/validation.json").write_text(json.dumps(report,indent=2))
 print(json.dumps(report,indent=2))

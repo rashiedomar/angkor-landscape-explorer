@@ -1,0 +1,6 @@
+[
+  "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N12E102_Map.tif",
+  "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N13_00_E104_00_DEM/Copernicus_DSM_COG_10_N13_00_E104_00_DEM.tif",
+  "s3://copernicus-dem-30m/Copernicus_DSM_COG_10_N13_00_E103_00_DEM/Copernicus_DSM_COG_10_N13_00_E103_00_DEM.tif",
+  "https://storage.googleapis.com/water-world/download2024/VER1-5/occurrence/occurrence_100E_20N_v1_5_2024.tif"
+]

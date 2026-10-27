@@ -1,0 +1,12 @@
+{
+  "n_predicted_field_units": 205703,
+  "predicted_field_area_km2": 534.534374623285,
+  "median_clipped_unit_ha": 0.06769333024281861,
+  "p25_clipped_unit_ha": 0.028995247599066812,
+  "p75_clipped_unit_ha": 0.18348663296430573,
+  "confidence_known_pct": 99.99902772443767,
+  "median_confidence": 80.48580932617188,
+  "high_confidence_area_km2": 447.7411888065531,
+  "source_url": "https://s3.us-west-2.amazonaws.com/us-west-2.opendata.source.coop/tge-labs/ftw-global-data/predictions/vectors/alpha/results-by-admin-conf/admin:country_code=KH/Cambodia.parquet",
+  "caution": "Modelled remote-sensing field units; no cadastral status, archaeological date, verified rice class or local accuracy estimate. Confidence is a coarse 500 m model score, not polygon-specific accuracy."
+}

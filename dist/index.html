@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Angkor | Water, fields and terrain</title>
+  <meta name="description" content="An exploratory, source-linked view of the existing Angkor satellite and terrain assessment.">
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="style.css">
+  <script defer src="vendor/leaflet.js"></script><script defer src="vendor/pako_inflate.min.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="identity"><h1>Angkor</h1><span>Water, fields and terrain</span></div>
+    <nav aria-label="Research information"><button id="sources-button">Sources &amp; files</button><button id="notes-button" aria-expanded="false" aria-controls="notes">Research notes <span aria-hidden="true">↗</span></button></nav>
+    <div class="university"><img src="assets/adelaide-university.svg" alt="Adelaide University"></div>
+  </header>
+  <main id="workspace">
+    <div id="map" aria-label="Interactive Angkor landscape map"></div>
+    <aside class="map-controls" aria-label="Map controls">
+      <div class="panel-heading"><h2>Explore the landscape</h2><button id="controls-toggle" aria-expanded="true" aria-label="Collapse map controls">−</button></div>
+      <div id="controls-body">
+        <p class="control-label">Background</p>
+        <div class="segments" role="group" aria-label="Background image">
+          <button class="selected" data-base="dry" aria-pressed="true">Dry</button><button data-base="wet" aria-pressed="false">Wet</button><button data-base="terrain" aria-pressed="false">Terrain</button>
+        </div>
+        <p id="base-caption" class="caption">Sentinel-2 · Feb–Apr 2025</p>
+        <label class="control-label" for="overlay-select">Map layer</label>
+        <select id="overlay-select">
+          <option value="water">Seasonal water · 2025</option><option value="vegetation">Vegetation change · 2025</option><option value="landcover">Land cover · 2021</option><option value="occurrence">Long-term water · 1984–2024</option><option value="support">Observation coverage · 2025</option><option value="none">Background only</option>
+        </select>
+        <div id="legend" aria-live="polite"></div>
+        <div class="opacity"><label for="opacity">Layer opacity</label><input id="opacity" type="range" min="0" max="100" value="85" aria-label="Layer opacity"><output id="opacity-value">85%</output></div>
+        <div class="field-control"><label><input id="fields" type="checkbox"><span>Modelled field outlines <small>FTW · 2025</small></span></label><p id="fields-status" class="caption">Zoom in to explore individual predictions.</p></div>
+        <div class="source-row"><button id="layer-source">About this layer</button><button id="reset-view">Reset view</button></div>
+        <p class="extent-note">Original comparison area · 1,999.9 km²<br>Not a catchment or archaeological boundary.</p>
+      </div>
+    </aside>
+    <div class="map-hint" id="map-hint">Click the map to inspect the data</div>
+    <div class="base-label" id="base-label">Dry-window composite <span>Feb–Apr 2025</span></div>
+    <aside id="notes" class="notes-panel" aria-label="Research notes" hidden>
+      <div class="notes-heading"><div><span class="eyebrow">Working research record</span><h2>Notes &amp; progress</h2></div><button id="close-notes" class="close-button" aria-label="Close research notes">×</button></div>
+      <div class="note-tabs" role="tablist" aria-label="Research note sections"><button role="tab" aria-selected="true" data-note-tab="brief">The brief</button><button role="tab" aria-selected="false" data-note-tab="readings">Reading notes</button><button role="tab" aria-selected="false" data-note-tab="progress">Progress</button></div>
+      <div id="notes-content" class="notes-content"></div>
+    </aside>
+    <div id="loading" role="status">Preparing the map…</div>
+  </main>
+  <footer><span>Exploratory assessment · observations are not historical attribution</span><span id="coordinates">Angkor, Cambodia</span></footer>
+  <dialog id="source-dialog" aria-labelledby="source-title"><div class="dialog-header"><div><span class="eyebrow">Data, methods and files</span><h2 id="source-title">Sources &amp; files</h2></div><button id="close-source" class="close-button" aria-label="Close sources">×</button></div><div id="source-content"></div></dialog>
+  <noscript>This explorer requires JavaScript. The full GIS data and reading notes remain available in the shared research package.</noscript>
+</body></html>

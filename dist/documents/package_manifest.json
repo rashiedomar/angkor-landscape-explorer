@@ -1,0 +1,169 @@
+{
+  "source": "Current local SHARE_WITH_SCOTT folder; not the earlier ZIP snapshot",
+  "files": [
+    {
+      "path": "01_Initial_assessment/Analysis_Notebook.html",
+      "bytes": 2268111
+    },
+    {
+      "path": "01_Initial_assessment/Analysis_Notebook.ipynb",
+      "bytes": 1949081
+    },
+    {
+      "path": "01_Initial_assessment/Comparative_metrics.csv",
+      "bytes": 724
+    },
+    {
+      "path": "01_Initial_assessment/Landscape_Assessment.pptx",
+      "bytes": 24494354
+    },
+    {
+      "path": "01_Initial_assessment/Map_Atlas.pdf",
+      "bytes": 12252551
+    },
+    {
+      "path": "01_Initial_assessment/README.md",
+      "bytes": 2136
+    },
+    {
+      "path": "01_Initial_assessment/Site_Summaries.pdf",
+      "bytes": 12237961
+    },
+    {
+      "path": "02_GIS/Angkor/Layer_dictionary.md",
+      "bytes": 4710
+    },
+    {
+      "path": "02_GIS/Angkor/README.md",
+      "bytes": 5264
+    },
+    {
+      "path": "02_GIS/Angkor/angkor.gpkg",
+      "bytes": 93925376
+    },
+    {
+      "path": "02_GIS/Angkor/angkor.qgs",
+      "bytes": 176168
+    },
+    {
+      "path": "02_GIS/Angkor/angkor_attachments.zip",
+      "bytes": 2117
+    },
+    {
+      "path": "02_GIS/Angkor/file_manifest.json",
+      "bytes": 3526
+    },
+    {
+      "path": "02_GIS/Angkor/native_qgis_check.json",
+      "bytes": 1856
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/dem.tif",
+      "bytes": 21538719
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/dry_composite.tif",
+      "bytes": 86639500
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/dry_observation_count.tif",
+      "bytes": 282171
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/jrc_occurrence_1984_2024.tif",
+      "bytes": 1001261
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/ndvi_wet_minus_dry_min2obs_2025.tif",
+      "bytes": 13514317
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/water_change.tif",
+      "bytes": 397363
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/wet_composite.tif",
+      "bytes": 71249764
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/wet_observation_count.tif",
+      "bytes": 978644
+    },
+    {
+      "path": "02_GIS/Angkor/rasters/worldcover_2021.tif",
+      "bytes": 764759
+    },
+    {
+      "path": "02_GIS/Angkor/sources/baseline_sources.json",
+      "bytes": 462
+    },
+    {
+      "path": "02_GIS/Angkor/sources/corrected_metrics_all_sites.json",
+      "bytes": 13861
+    },
+    {
+      "path": "02_GIS/Angkor/sources/dem_catalogue.json",
+      "bytes": 5936
+    },
+    {
+      "path": "02_GIS/Angkor/sources/dry_selected.json",
+      "bytes": 292483
+    },
+    {
+      "path": "02_GIS/Angkor/sources/ftw_summary.json",
+      "bytes": 778
+    },
+    {
+      "path": "02_GIS/Angkor/sources/wet_selected.json",
+      "bytes": 292511
+    },
+    {
+      "path": "02_GIS/Angkor/verification.json",
+      "bytes": 3472
+    },
+    {
+      "path": "03_Reading_and_terrain_notes/Reading_and_terrain_notes.pdf",
+      "bytes": 74051
+    },
+    {
+      "path": "03_Reading_and_terrain_notes/Terrain_audit.md",
+      "bytes": 2555
+    },
+    {
+      "path": "03_Reading_and_terrain_notes/Working_reading_notes.md",
+      "bytes": 8805
+    },
+    {
+      "path": "03_Reading_and_terrain_notes/terrain_audit.json",
+      "bytes": 7043
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/Evans Lidar 2019 (1).pdf",
+      "bytes": 1079838
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/Groslier 1979.pdf",
+      "bytes": 8719597
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/HAWKEN 10.4324_9781351128940-24_chapterpdf.pdf",
+      "bytes": 10899365
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/Liere 1980.pdf",
+      "bytes": 897364
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/SRT AOI.kml",
+      "bytes": 8337
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/VAN LIERE 1989 mon khmer approaches to the env.pdf",
+      "bytes": 705769
+    },
+    {
+      "path": "04_Sources_provided_by_professor_Scott/evans-et-al-2007-a-comprehensive-archaeological-map-of-the-world-s-largest-preindustrial-settlement-complex-at-angkor.pdf",
+      "bytes": 1550994
+    }
+  ]
+}

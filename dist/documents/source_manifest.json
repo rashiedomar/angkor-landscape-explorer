@@ -1,0 +1,43 @@
+{
+  "display_derivatives_of": "Current SHARE_WITH_SCOTT/02_GIS/Angkor",
+  "sources": [
+    {
+      "file": "02_GIS/Angkor/rasters/dem.tif",
+      "sha256": "11c149497c2ae5c782f0e0de48ecfe49c3b6317cc5f1648d5469e61758172cd9"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/dry_composite.tif",
+      "sha256": "d1206dd8544a28037b2928358cb8954ca23d8159635b7a6b03747c100bb0e246"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/dry_observation_count.tif",
+      "sha256": "327a78e4517779cee033db1ad2142d4bd22bd7a9ae9b1d8c5be2121be8dd0038"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/jrc_occurrence_1984_2024.tif",
+      "sha256": "9e703c7a9f1df4fd1b0cb54b6c0a862d44fa7e206bd6cb9a24f12d288506a222"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/ndvi_wet_minus_dry_min2obs_2025.tif",
+      "sha256": "4ca1e9248977360b420f6c72a9fd45ffd6357a66c708d7ea176ee1f415952975"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/water_change.tif",
+      "sha256": "08510cdd2e588dcbafaeb3437012a13088f7ea17cf2ea0c7bfd3ea00bd773258"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/wet_composite.tif",
+      "sha256": "01596a56a55aac373fb820e9dedc889f42ac42b97e6deae3f920ba0f5f862fa2"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/wet_observation_count.tif",
+      "sha256": "ff593d8f5e6d5e8b5fdccb486d49b7d96f41a96e79a8a1679555477aea6f21ce"
+    },
+    {
+      "file": "02_GIS/Angkor/rasters/worldcover_2021.tif",
+      "sha256": "416c2547b764a2c2373b102b153356c39e7f4b19e12e1d4fca98c60b62914e5c"
+    }
+  ],
+  "field_geometry_simplification_degrees": 6e-06,
+  "source_field_features": 205703
+}
